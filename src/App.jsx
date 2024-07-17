@@ -1,5 +1,6 @@
 import { UpdateFollower } from "react-mouse-follower";
 import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       followSpeed:1.5,
     }} >
     <Navbar/>
+    <Hero/>
 
     </UpdateFollower>
    </main>
