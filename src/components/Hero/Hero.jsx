@@ -181,16 +181,9 @@ const Hero = () => {
           {/* Hero image */}
           <div className="flex flex-col items-center">
 
-<AnimatePresence mode="wait">
-<motion.img  key={activeData.id}
-                  transition={{duration:0.5}}
-                  initial={{opacity:0, scale:0.9 }}
-                  animate="show"
-                  exit="exit"
-              src={activeData.image}
-              className="w-[300px] md:w-[400px] xl:w-[500px]"
-            ></motion.img>
-</AnimatePresence>
+
+
+
 
             <img
               src={activeData.image}
