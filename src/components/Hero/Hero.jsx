@@ -138,7 +138,7 @@ const Hero = () => {
                   animate="show"
                   exit="exit"
                 style={{ backgroundColor: activeData.bgColor }}
-                className="px-4 py-2 inline-block font-normal rounded-sm "
+                className="px-4 py-2 inline-block font-normal rounded-sm"
               >
                 Buy and Listen
               </motion.button></UpdateFollower>
